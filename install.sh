@@ -3,7 +3,7 @@
 sudo apt install make
 sudo apt install gfortran
 conda create --name py3 python=3.9
-conda activate py
+conda activate py3
 conda install pip
 pip install jupyterlab
 pip install matplotlib astropy scipy numpy pandas
