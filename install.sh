@@ -2,6 +2,7 @@
 
 sudo apt install make
 sudo apt install gfortran
+sudo apt install ffmpeg
 conda create --name py3 python=3.9
 conda activate py3
 conda install pip
