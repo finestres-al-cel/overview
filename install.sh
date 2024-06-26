@@ -1,9 +1,10 @@
 #!/bin/bash
 
-sudo apt install make
-sudo apt install gfortran
-sudo apt install ffmpeg
-sudo apt install vlc
+# uncomment the following if you have sudo access and want to install necessary dependencies
+#sudo apt install make
+#sudo apt install gfortran
+#sudo apt install ffmpeg
+#sudo apt install vlc
 conda create --name py3 python=3.9
 conda activate py3
 conda install pip
