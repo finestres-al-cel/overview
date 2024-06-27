@@ -11,6 +11,7 @@ conda install pip
 pip install jupyterlab
 pip install notebook
 pip install matplotlib astropy scipy numpy pandas rawpy
+pip install PyQt6 pyqtgraph
 cd ..
 git clone https://github.com/finestres-al-cel/pyspec.git
 git clone https://github.com/finestres-al-cel/titius_bode.git
