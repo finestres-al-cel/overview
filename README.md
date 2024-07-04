@@ -7,8 +7,11 @@ Instructions to create an environment to run the different codes
 3. run `sudo bash install_with_sudo.sh`
 4. run `bash install.sh`
 5. add the following lines to your bash profile (~/.profile or ~/.bash_profile):
+   
      EXPORT PYSPEC={INSTALL_PATH}/pyspec
+   
      EXPORT CUMULOBERT={INSTALL_PATH}/cumulobert
+   
      EXPORT PYTHONPATH=$PYTHONPATH':'$PYSPEC'/:'$CUMULOBERT'/:'
 
 
