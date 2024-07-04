@@ -8,11 +8,12 @@ Instructions to create an environment to run the different codes
 4. run `bash install.sh`
 5. add the following lines to your bash profile (~/.profile or ~/.bash_profile):
    
-     EXPORT PYSPEC={INSTALL_PATH}/pyspec
+     `EXPORT PYSPEC={INSTALL_PATH}/pyspec`
    
-     EXPORT CUMULOBERT={INSTALL_PATH}/cumulobert
+     `EXPORT CUMULOBERT={INSTALL_PATH}/cumulobert`
    
-     EXPORT PYTHONPATH=$PYTHONPATH':'$PYSPEC'/:'$CUMULOBERT'/:'
+     `EXPORT PYTHONPATH=$PYTHONPATH':'$PYSPEC'/:'$CUMULOBERT'/:'`
+6. relaunch your terminal
 
 
 (replace {INSTALL_PATH} with the actual path where you cloned this repository)
